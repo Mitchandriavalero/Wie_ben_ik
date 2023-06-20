@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('spacebackground.jpg');
+}
+
+.map {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Avatar */
+.collega {
+    background-color: lemonchiffon;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    width: 15%;
+    margin: 30px;
+    border-style: outset;
+    border-width: 3px;
+}
+
+.collega:nth-child(1) img[alt="colors"] {
+    display: block;
+    object-fit: cover;
+    width: 20%;
+    height: 20%;
+    aspect-ratio: 1/1;
+    object-position: left;
+    padding: 10px;
+}
+
+.collega:nth-child(2) img[alt="colors"] {
+    display: block;
+    object-fit: cover;
+    width: 20%;
+    height: 20%;
+    aspect-ratio: 1/1;
+    object-position: center;
+    padding: 10px;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.avatar img {
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+/* navbar */
+nav {
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 80px;
+}
+
+nav .logo {
+    float: left;
+}
+
+nav .logo p {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+/* Form */
+
+.container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    align-items: center;
+    color: white;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    padding: 1.5%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    color: purple;
+    text-align: center;
+}
